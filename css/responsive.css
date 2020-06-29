@@ -1,0 +1,280 @@
+	/* Small desktop */
+	@media (min-width: 980px) and (max-width: 1199px) { 
+
+		/* Works */
+		.myport .portfolio ,
+		.myport .portfolio-5-col,
+		.myport .portfolio-4-col,
+		.myport .portfolio-3-col
+		{
+			width: 25%;
+		}	
+		
+		.img-holder:hover .overlay-content{
+			top: 20%;
+		}
+		  
+	}
+		
+
+	/* Portrait tablet to landscape and desktop */
+	@media (min-width: 768px) and (max-width: 979px) {
+
+		/* Home Slider */
+		#home-slider .caption h1 {
+			font-size: 60px;
+		}
+
+		#home-slider .caption p {
+			font-size: 35px;
+		}	
+			
+		/* Navagation*/
+		.navbar-header {
+			float: none;
+		}
+		.navbar-left,.navbar-right {
+			float: none !important;
+		}
+		.navbar-toggle {
+			display: block;
+		}
+		.navbar-collapse {
+			border-top: 1px solid transparent;
+			box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+		}
+		.navbar-fixed-top {
+			top: 0;
+			border-width: 0 0 1px;
+		}
+		.navbar-collapse.collapse {
+			display: none!important;
+		}
+		.navbar-nav {
+			float: none!important;
+			margin-top: 7.5px;
+		}
+		.navbar-nav>li {
+			float: none;
+		}
+		.navbar-nav>li>a {
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		.collapse.in{
+			display:block !important;
+		}
+		.navbar-collapse.in {
+			overflow-y: auto !important;
+		}
+		.navbar-nav .open .dropdown-menu {
+			position: static;
+			float: none;
+			width: auto;
+			margin-top: 0;
+			background-color: transparent;
+			border: 0;
+			box-shadow: none;
+		}
+		.navbar-nav .open .dropdown-menu>li>a, .navbar-nav .open .dropdown-menu .dropdown-header {
+			padding: 5px 15px 5px 25px;
+		}
+		.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+			color: #999;
+		}
+		.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover, 
+		.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus {
+			color: #fff;
+			background-color: transparent;
+			background-image:none;
+		}
+			
+		/* Block Best Fitting */	
+		.wrapper-team .col-md-3,
+		.wrapper-number .col-md-3,
+		.wrapper-count .col-md-3,
+		.wrapper-partners .col-md-3
+		{
+			float: left;
+			margin: 0 auto;
+			width: 50%;
+		}			
+		
+		/* Price */
+		.wrapper-pricing .col-md-3{
+			margin: 0 auto 20px;
+			width: 50%;
+			float: left;
+		}	
+
+		/* Works */
+		.myport .portfolio ,
+		.myport .portfolio-5-col,
+		.myport .portfolio-4-col,
+		.myport .portfolio-3-col
+		{
+			width: 33.33%;
+		}	
+		.img-holder:hover .overlay-content{
+			top: 20%;
+		}
+		/* News */
+		.post-date{
+			padding: 5px 15px;
+		}
+		
+		.post-date h2 {
+			font-size: 16px;
+			margin-top: 5px;
+		}
+		
+		.post-date h2 span {
+			font-size: 18px;
+		}		
+		
+		/* Contact Form */
+		.contact_form {
+			width: 90%;
+		}
+	}
+	
+	
+	/* Landscape phone to portrait tablet */
+	@media (max-width: 767px) {
+	
+		#home-slider .caption h1 {
+			font-size: 40px;
+		}
+
+		#home-slider .caption p {
+			font-size: 15px;
+		}
+
+
+		/* Block Best Fitting */
+		.wrapper-number .col-md-3,
+		.wrapper-team .col-md-3,
+		.wrapper-count .col-md-3,
+		.wrapper-partners .col-md-3{
+			float: left;
+			margin: 0 auto;
+			width: 50%;
+		}		
+	
+		/* Price */
+		.wrapper-pricing .col-md-3{
+			margin: 0 auto 20px;
+			width: 70%;
+		}	
+		
+		/* Works */
+		.myport .portfolio ,
+		.myport .portfolio-5-col,
+		.myport .portfolio-4-col,
+		.myport .portfolio-3-col
+		{
+			width: 50%;
+		}
+		.img-holder:hover .overlay-content{
+			top: 20%;
+		}
+		
+		/* News */
+		.post-date{
+			padding: 5px 15px;
+		}
+		
+		.post-date h2 {
+			font-size: 16px;
+			margin-top: 5px;
+		}
+		
+		.post-date h2 span {
+			font-size: 18px;
+		}	
+
+		/* Contact Form */
+		.contact_form {
+			width: 90%;
+		}		
+		
+	}
+
+	/* Landscape phones and down */
+	@media (max-width: 480px) {	
+		
+		/* Home Slider */
+		#home-slider .caption h1 {
+			font-size: 40px;
+		}
+		#home-slider .caption {
+			font-size: 15px;
+			padding: 0 30px;
+		}
+		.left-control, .right-control {
+			font-size: 20px;
+			height: 30px;
+			line-height: 25px;
+			width: 30px;
+		}
+		#home-slider:hover .right-control {
+			right: 15px;
+		}
+		#home-slider:hover .left-control {
+			left: 15px;
+		}
+		
+		/* Block Best Fitting */
+		.wrapper-team .col-md-3,
+		.wrapper-number .col-md-3,
+		.wrapper-count .col-md-3,
+		.wrapper-partners .col-md-3
+		{
+			margin: 0 auto;
+			width: 100%;
+		}
+		
+		/* Price */
+		.wrapper-pricing .col-md-3{
+			margin: 0 auto 20px;
+			width: 100%;
+		}
+	
+		/* Facts */	
+		.wrapper-contacts-icons .col-xs-4{
+			width: 100%;
+		}
+		
+		/* Works */
+		.myport .portfolio ,
+		.myport .portfolio-5-col,
+		.myport .portfolio-4-col,
+		.myport .portfolio-3-col
+		{
+			width: 100%;
+		}
+		
+		/* Titles */
+		.section-title h1 span{
+			padding: 0 4px;
+			font-size: 30px;
+		}
+		.element-title h1 {
+			font-size: 20px;
+		}
+		.element-title h3 {
+			font-size: 16px;
+		}
+
+		/* Contact Form */
+		.contact_form {
+			width: 90%;
+		}
+
+	}
+	
+	@media all and (-webkit-min-device-pixel-ratio: 1.5) 
+	{ 
+		/*.navbar-brand { background: url("../images/logo-white@2x.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);background-size: 151px 47px; }*/
+	}
+	
